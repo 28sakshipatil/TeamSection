@@ -27,6 +27,7 @@ const ProfileCard = () => {
       imgSrc: "/woman.jpg",
       githubLink: "https://github.com",
     },
+    
   ];
 
   return (

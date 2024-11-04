@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import React from 'react';
 import EventPage from './pages/EventPage';
 import ProfileCard from './components/ProfileCard';
+import EventDet from './pages/EventDet';
 
 function App() {
   return (
     <div >
       {/* <EventPage /> */}
-      <ProfileCard />
+      {/* <ProfileCard /> */}
+      <EventDet />
     </div>
   );
 }

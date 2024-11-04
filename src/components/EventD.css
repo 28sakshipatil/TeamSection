@@ -1,0 +1,127 @@
+
+  /* EventD.css */
+.background-section {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url('D:\COLLEGE\MINI PROJECT SEM 5\demo\public\Eventbg.jpg'); /* Optional if using inline style */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    overflow: hidden; /* Prevent overflow if needed */
+}
+
+.overlay {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 90px;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+}
+ center{
+    padding: 30px;
+ }
+
+ .button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    margin:20px 0px;
+}
+
+.button:hover {
+    background-color: #d3d3d3; /* Light grey color on hover */
+    color: black; /* Optional: Changes text color to black on hover */
+}
+
+ .event-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  
+  .event-info-section {
+    text-align: center;
+  }
+  
+  .section-header {
+    font-weight: bold;
+  }
+  
+  .section-content {
+    margin-top: 5px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 18px; /* Adjust font size as needed */
+    color: #333; /* Adjust color as needed */
+    line-height: 1.5;
+  }
+
+  .event-info-section .section-content {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #333; /* Adjust color as needed */
+    line-height: 1.5;
+  }
+
+  .invitation {
+    font-family: "Stylish", serif;
+    color: #333;
+    text-align: center;
+    margin: 0 80px;
+    padding:40px 80px;
+  }
+  
+  .invitation-header {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  
+  .invitation-text {
+    font-size: 20px;
+    line-height: 1.5;
+    
+  }
+  
+  .Rec{
+    text-align: center;
+    margin: 0 80px;
+    padding:40px 80px;
+  }
+  .Rec-attire{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+  }
+  .Rec-text{
+    font-size: 20px;
+  }
